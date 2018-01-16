@@ -1,0 +1,36 @@
+         
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+
+
+	
+
+background-color: #008B8B;
+
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+        
+}
+
+button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {padding: 14px 40px;}
+.button1 {background-color: #f44336;} /* Red */ 
