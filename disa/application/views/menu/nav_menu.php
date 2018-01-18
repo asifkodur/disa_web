@@ -51,7 +51,7 @@ if (isset($logged_in) and ($logged_in)) // adds logout and dashboard only if use
 
         $navs['logout'] = array(
                 "label" => "Logout",
-                "link" => site_url("login/logout") ,
+                "link" => site_url("logout") ,
                 "if_active" => "no"
         );
 
@@ -115,7 +115,7 @@ endif;
 	
 	<?php foreach ($navs as $item): ?>	
 	<?php if (isset($navs['welcome_msg']) and $item == $navs['welcome_msg']): ?><a  href="<?=$item['link'] ?>" <?php if ($item['if_active'] == 'yes'): ?>class="active"  <?php
-                endif; ?> style="color:red" style="background-color:#ffffa0"><?=$item['label'] ?></a>  
+                endif; ?> style="color:#F17B21" style="background-color:#ffffa0"><?=$item['label'] ?></a>  
 	<?
         else: ?>
 	

@@ -68,7 +68,7 @@ endforeach; ?>
 ?>&email=<?=$std_email
 ?>'>Edit</a></td>
         <?php $warning = '"Do you really want to delete ' . $row["name"] . '?"'; ?>
-        <td><a href=<?php echo site_url('student_list/delete_student'); ?>/<?=$std_id ?>/<?=$std_email ?> onclick='return confirm(<?=$warning ?>)'>Delete</a></td>
+        <td><a href=<?php echo site_url('delete_student'); ?>/<?=$std_id ?>/<?=$std_email ?> onclick='return confirm(<?=$warning ?>)'>Delete</a></td>
     <?php
         endif; ?>
         

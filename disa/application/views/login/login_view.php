@@ -20,7 +20,8 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
         'name' => 'login_form'
 ); ?>
 
-<?php echo form_open('login/form_submitted', $attributes); ?>
+
+<?php echo form_open('login_submitted', $attributes); ?>
 		
 		<!-- Useranme -->
 		

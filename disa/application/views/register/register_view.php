@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 ?>
 
-<?php echo form_open('register_student/form_submitted', $attributes); ?>
+<?php echo form_open('registration_submitted', $attributes); ?>
 
 <!-- Name input and Label-->
 
