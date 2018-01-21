@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Name', 'name', $attribute);
+echo form_label('Name*', 'name', $attribute);
 
 $data = array(
         'name' => 'name',
@@ -59,7 +59,7 @@ echo form_input($data);
         <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Gender', 'gender3', $attribute); ?>		
+echo form_label('Gender*', 'gender3', $attribute); ?>		
 		<label class="w3layouts">
 			
 
@@ -110,7 +110,7 @@ Other</label>
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Date of Birth', 'dob', $attribute);
+echo form_label('Date of Birth*', 'dob', $attribute);
 $data = array(
         'name' => 'dob',
         'classs' => 'form-control',
@@ -132,7 +132,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Email', 'u_email', $attribute);
+echo form_label('Email*', 'u_email', $attribute);
 
 $data = array(
         'name' => 'u_email',
@@ -155,7 +155,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Name of Father/Parent/Husband', 'father', $attribute);
+echo form_label('Name of Father/Parent/Husband*', 'father', $attribute);
 
 $data = array(
         'name' => 'father',
@@ -179,7 +179,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Name of Mother', 'mother', $attribute);
+echo form_label('Name of Mother*', 'mother', $attribute);
 
 $data = array(
         'name' => 'mother',
@@ -205,7 +205,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Address', 'address1', $attribute);
+echo form_label('Address*', 'address1', $attribute);
 
 $data = array(
         'name' => 'address1',
@@ -262,7 +262,7 @@ echo form_textarea($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Phone', 'phone', $attribute);
+echo form_label('Phone*', 'phone', $attribute);
 
 $data = array(
         'name' => 'phone',
@@ -288,7 +288,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Course Presently Studying/Last Studied', 'course', $attribute);
+echo form_label('Course Presently Studying/Last Studied*', 'course', $attribute);
 
 $options = array(
         '' => 'Select',
@@ -318,7 +318,7 @@ echo form_dropdown('course', $options, '', ' id="course" class="form-control" re
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Course Details (Group/Main/Branch)', 'course_details', $attribute);
+echo form_label('Course Details (Group/Main/Branch)*', 'course_details', $attribute);
 
 $data = array(
         'name' => 'course_details',
@@ -345,7 +345,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Name of Institution', 'institution', $attribute);
+echo form_label('Name of Institution*', 'institution', $attribute);
 
 $data = array(
         'name' => 'institution',
@@ -373,7 +373,7 @@ echo form_input($data);
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Course Duration (Year)', 'duration_year', $attribute);
+echo form_label('Course Duration (Year)*', 'duration_year', $attribute);
 
 $options = array(
         '' => 'Select',
@@ -400,7 +400,7 @@ echo form_dropdown('duration_year', $options, '', 'required="required" id="durat
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Course Duration(Month)', 'duration_month', $attribute);
+echo form_label('Course Duration(Month)*', 'duration_month', $attribute);
 
 $options = array(
         '' => 'Select',
@@ -431,7 +431,7 @@ echo form_dropdown('duration_month', $options, '', 'required="required" id="dura
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Financial Status', 'finance', $attribute);
+echo form_label('Financial Status*', 'finance', $attribute);
 
 $options = array(
         '' => 'Select',
@@ -454,7 +454,7 @@ echo form_dropdown('finance', $options, '', 'id="finance" class="form-control"')
 <?php $attribute = array(
         'class' => 'control-label'
 );
-echo form_label('Are you working now?', 'if_working', $attribute);
+echo form_label('Are you working now?*', 'if_working', $attribute);
 
 $options = array(
         '' => 'Select',
